@@ -1,0 +1,1 @@
+window.open('//'+document.location.hostname+'/manager')

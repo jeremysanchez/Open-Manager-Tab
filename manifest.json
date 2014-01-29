@@ -1,0 +1,21 @@
+{
+ "background": {"scripts": ["background.js"]},
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "Open Manager Tab"
+ },
+ "name": "Open Manager Tab",
+ "description": "Launches MODX manager for the website displayed in the active tab.",
+ "homepage_url": "http://metaicon.com/open-manager-extension/",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
