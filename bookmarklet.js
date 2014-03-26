@@ -1,1 +1,1 @@
-window.open('//'+document.location.hostname+'/manager')
+window.open('//'+document.location.hostname+'/manager/?u='+window.location.pathname)
